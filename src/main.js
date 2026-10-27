@@ -7,19 +7,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const boite = document.querySelector(".boite");
 
-const timeline = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".boite",
-    start: "top bottom",
-    end: "bottom center",
-
-    scrub: true,
-
-    markers: true,
-
-    
-  }
-});
 
 gsap.from(".boite", {
   y: 250, 
@@ -37,7 +24,17 @@ gsap.from(".boite", {
 
   opacity: 0,
 
+scrollTrigger: {
+    trigger: ".boite",
+    start: "top bottom",
+    end: "bottom center",
 
+    
+
+    markers: true,
+
+    
+  }
 
 
 
