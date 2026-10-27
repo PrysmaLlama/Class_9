@@ -1,0 +1,18 @@
+.spacer {
+    height: 100vh;
+}
+
+#master {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.boite {
+  width: 180px;
+  height: 180px;
+  background-color: grey;
+  margin: 10px;
+  border-radius: 10px;
+  opacity: 0;
+}
