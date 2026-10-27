@@ -16,24 +16,26 @@ const timeline = gsap.timeline({
     scrub: true,
 
     markers: true,
+
+    
   }
 });
 
 gsap.from(".boite", {
   y: 250, 
 
-  rotateZ: 90,
+  
 
   duration: 1,
   ease: "power4.inOut",
 
 
   stagger: {
-    each: 0.2,
-    from: 2,
+    each: 0.08,
+    from: 0,
   },
 
-  opacity: 100,
+  opacity: 0,
 
 
 
